@@ -23,25 +23,25 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vue,sass,vite&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vue,sass,vite&theme=light" />
-    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vue,sass,vite&theme=light" alt="Frontend technologies" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html%2Ccss%2Cjs%2Cts%2Creact%2Cnextjs%2Cvue%2Csass%2Cvite&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=html%2Ccss%2Cjs%2Cts%2Creact%2Cnextjs%2Cvue%2Csass%2Cvite&theme=light" />
+    <img src="https://skillicons.dev/icons?i=html%2Ccss%2Cjs%2Cts%2Creact%2Cnextjs%2Cvue%2Csass%2Cvite&theme=light" alt="Frontend technologies" />
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs,python,fastapi,postgres,redis,prisma&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nodejs,python,fastapi,postgres,redis,prisma&theme=light" />
-    <img src="https://skillicons.dev/icons?i=nodejs,python,fastapi,postgres,redis,prisma&theme=light" alt="Backend and data technologies" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs%2Cpython%2Cfastapi%2Cpostgres%2Credis%2Cprisma&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nodejs%2Cpython%2Cfastapi%2Cpostgres%2Credis%2Cprisma&theme=light" />
+    <img src="https://skillicons.dev/icons?i=nodejs%2Cpython%2Cfastapi%2Cpostgres%2Credis%2Cprisma&theme=light" alt="Backend and data technologies" />
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=cloudflare,docker,git,githubactions,vercel,vscode,linux&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=cloudflare,docker,git,githubactions,vercel,vscode,linux&theme=light" />
-    <img src="https://skillicons.dev/icons?i=cloudflare,docker,git,githubactions,vercel,vscode,linux&theme=light" alt="Platform and engineering tools" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=cloudflare%2Cdocker%2Cgit%2Cgithubactions%2Cvercel%2Cvscode%2Clinux&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=cloudflare%2Cdocker%2Cgit%2Cgithubactions%2Cvercel%2Cvscode%2Clinux&theme=light" />
+    <img src="https://skillicons.dev/icons?i=cloudflare%2Cdocker%2Cgit%2Cgithubactions%2Cvercel%2Cvscode%2Clinux&theme=light" alt="Platform and engineering tools" />
   </picture>
 </p>
 
