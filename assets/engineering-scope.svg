@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" role="img" aria-labelledby="title description">
+  <title id="title">Engineering scope</title>
+  <desc id="description">Three engineering capabilities: agent systems, product infrastructure, and frontend experience.</desc>
+  <style>
+    :root { color-scheme: light dark; }
+    .card { fill: #ffffff; stroke: #dbe3ef; }
+    .primary { fill: #111827; }
+    .secondary { fill: #637187; }
+    .label { fill: #315ed4; }
+    .accent { fill: #4f6ee8; }
+    @media (prefers-color-scheme: dark) {
+      .card { fill: #101827; stroke: #2a3952; }
+      .primary { fill: #f3f6fb; }
+      .secondary { fill: #9eacc0; }
+      .label { fill: #8ba6ff; }
+      .accent { fill: #7898fa; }
+    }
+  </style>
+
+  <rect class="card" x="16" y="16" width="304" height="198" rx="14" />
+  <rect class="accent" x="38" y="40" width="34" height="4" rx="2" />
+  <text class="label" x="38" y="72" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.4">01 / CONTROL</text>
+  <text class="primary" x="38" y="109" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="22" font-weight="700">Agent Systems</text>
+  <text class="secondary" x="38" y="143" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">Tools · MCP · Context · Guardrails</text>
+  <text class="secondary" x="38" y="171" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">Review loops · Long-running tasks</text>
+
+  <rect class="card" x="348" y="16" width="304" height="198" rx="14" />
+  <rect class="accent" x="370" y="40" width="34" height="4" rx="2" />
+  <text class="label" x="370" y="72" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.4">02 / DELIVERY</text>
+  <text class="primary" x="370" y="109" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="22" font-weight="700">Product Infrastructure</text>
+  <text class="secondary" x="370" y="143" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">APIs · Workers · Data · Storage</text>
+  <text class="secondary" x="370" y="171" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">Authentication · Payments · Webhooks</text>
+
+  <rect class="card" x="680" y="16" width="304" height="198" rx="14" />
+  <rect class="accent" x="702" y="40" width="34" height="4" rx="2" />
+  <text class="label" x="702" y="72" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.4">03 / EXPERIENCE</text>
+  <text class="primary" x="702" y="109" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="22" font-weight="700">Frontend Experience</text>
+  <text class="secondary" x="702" y="143" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">Architecture · Visualization · UX</text>
+  <text class="secondary" x="702" y="171" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">Complex states · Performance</text>
+</svg>
+

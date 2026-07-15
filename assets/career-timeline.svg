@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="380" viewBox="0 0 1000 380" role="img" aria-labelledby="title description">
+  <title id="title">Career journey</title>
+  <desc id="description">A timeline from frontend engineering through frontend leadership to AI full-stack engineering.</desc>
+  <defs>
+    <linearGradient id="timeline" gradientUnits="userSpaceOnUse" x1="145" y1="194" x2="855" y2="194">
+      <stop offset="0" stop-color="#06b6d4" />
+      <stop offset="0.52" stop-color="#4f46e5" />
+      <stop offset="1" stop-color="#2563eb" />
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-20%" width="130%" height="150%">
+      <feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.08" />
+    </filter>
+  </defs>
+  <style>
+    :root { color-scheme: light dark; }
+    .surface { fill: #f8fafc; stroke: #dbe4f0; }
+    .card { fill: #ffffff; stroke: #d9e2ef; }
+    .primary { fill: #111827; }
+    .secondary { fill: #5f6f84; }
+    .eyebrow { fill: #315ed4; }
+    .pill { fill: #e9efff; }
+    .node { fill: #ffffff; stroke: #4f6ee8; }
+    .node-text { fill: #315ed4; }
+    .connector { stroke: #a9b9d1; }
+    @media (prefers-color-scheme: dark) {
+      .surface { fill: #0b1220; stroke: #26344c; }
+      .card { fill: #111a2b; stroke: #2a3952; }
+      .primary { fill: #f3f6fb; }
+      .secondary { fill: #9eacc0; }
+      .eyebrow { fill: #83a2ff; }
+      .pill { fill: #1c2b50; }
+      .node { fill: #0f1727; stroke: #7898fa; }
+      .node-text { fill: #9ab2ff; }
+      .connector { stroke: #52627b; }
+    }
+  </style>
+
+  <rect class="surface" x="1" y="1" width="998" height="378" rx="24" />
+  <text class="secondary" x="50" y="34" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="2.2">CAREER EVOLUTION / 2019 — NOW</text>
+
+  <rect x="145" y="191" width="710" height="6" fill="url(#timeline)" />
+
+  <line class="connector" x1="145" y1="158" x2="145" y2="178" stroke-width="2" />
+  <rect class="card" x="42" y="48" width="286" height="110" rx="15" filter="url(#shadow)" />
+  <rect class="pill" x="62" y="66" width="84" height="24" rx="12" />
+  <text class="eyebrow" x="104" y="82" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" font-weight="700">FOUNDATION</text>
+  <text class="secondary" x="307" y="83" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12">2019 — 2020</text>
+  <text class="primary" x="62" y="116" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="700">Frontend Engineering</text>
+  <text class="secondary" x="62" y="141" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13">Interfaces · Components · Visualization</text>
+
+  <line class="connector" x1="500" y1="210" x2="500" y2="230" stroke-width="2" />
+  <rect class="card" x="357" y="230" width="286" height="110" rx="15" filter="url(#shadow)" />
+  <rect class="pill" x="377" y="248" width="94" height="24" rx="12" />
+  <text class="eyebrow" x="424" y="264" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" font-weight="700">OWNERSHIP</text>
+  <text class="secondary" x="622" y="265" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12">2020 — 2024</text>
+  <text class="primary" x="377" y="298" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="700">Frontend Lead</text>
+  <text class="secondary" x="377" y="323" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13">Architecture · Security · Delivery</text>
+
+  <line class="connector" x1="855" y1="158" x2="855" y2="178" stroke-width="2" />
+  <rect class="card" x="672" y="48" width="286" height="110" rx="15" filter="url(#shadow)" />
+  <rect class="pill" x="692" y="66" width="92" height="24" rx="12" />
+  <text class="eyebrow" x="738" y="82" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" font-weight="700">AI-NATIVE</text>
+  <text class="secondary" x="937" y="83" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12">2025 — NOW</text>
+  <text class="primary" x="692" y="116" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="700">AI Full-Stack Engineering</text>
+  <text class="secondary" x="692" y="141" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13">Agents · MCP · SaaS · Workers · Multimodal</text>
+
+  <circle cx="145" cy="194" r="17" fill="#4f6ee8" opacity="0.16" />
+  <circle class="node" cx="145" cy="194" r="11" stroke-width="4" />
+  <circle cx="500" cy="194" r="17" fill="#4f6ee8" opacity="0.16" />
+  <circle class="node" cx="500" cy="194" r="11" stroke-width="4" />
+  <circle cx="855" cy="194" r="17" fill="#2563eb" opacity="0.18" />
+  <circle class="node" cx="855" cy="194" r="11" stroke-width="4" />
+</svg>
